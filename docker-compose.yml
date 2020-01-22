@@ -1,0 +1,7 @@
+version: '3'
+services:
+  data:
+    image: gcr.io/kaggle-images/python
+    container_name: comvis_hatano
+    volumes:
+      - ./:/workspace
